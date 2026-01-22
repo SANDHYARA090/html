@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Attendance System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="login-card">
+<div class="avatar">
+  <img src="prf.png" alt="Profile Icon">
+</div>
+
+  <h2>Attendance System</h2>
+
+  <select id="role">
+    <option value="">Select Role</option>
+    <option value="admin">Admin</option>
+    <option value="staff">Staff</option>
+    <option value="student">Student</option>
+  </select>
+
+  <div class="input-group">
+    <input type="text" id="userid" required>
+    <label>User ID</label>
+  </div>
+
+  <div class="input-group">
+    <input type="password" id="password" required>
+    <label>Password</label>
+  </div>
+
+  <button onclick="login()">LOGIN</button>
+
+  <p class="footer-text">© 2026 Attendance System</p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
